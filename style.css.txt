@@ -1,0 +1,59 @@
+/* Estilo geral para o slideshow */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;  /* Centraliza o slideshow */
+  overflow: hidden;  /* Oculta as imagens fora do contêiner */
+}
+
+/* Oculta as imagens por padrão */
+.mySlides {
+  display: none;
+}
+
+/* Animação de transição (fade) */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Estilo das imagens */
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilo das setas */
+.prev, .next {
+  position: absolute;
+  top: 50%;  /* Alinha as setas verticalmente no meio */
+  padding: 10px;
+  color: rgba(133, 214, 248, 0.5); /* Cor azul com mais transparência */
+  font-size: 36px;  /* Tamanho da seta */
+  font-weight: bold;
+  background: transparent; /* Sem fundo */
+  border: none;  /* Sem borda */
+  cursor: pointer;
+  user-select: none;
+  transform: translateY(-50%);  /* Centraliza a seta verticalmente */
+  transition: color 0.3s ease;  /* Transição suave da cor ao passar o mouse */
+}
+
+/* Efeito de hover nas setas */
+.prev:hover, .next:hover {
+  color: rgba(252, 252, 255, 1); /* Azul mais forte ao passar o mouse */
+}
+
+/* Posicionamento das setas */
+.prev {
+  left: 10px;  /* Posiciona a seta à esquerda */
+}
+
+.next {
+  right: 10px;  /* Posiciona a seta à direita */
+}
