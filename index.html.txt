@@ -1,0 +1,37 @@
+<div class="slideshow-container">
+  <!-- Slide 1 -->
+  <div class="mySlides fade">
+    <img src=" https://64.media.tumblr.com/1652d3867f4f02fa0be5a69e24b904cf/beb08a544058188a-ea/s2048x3072/5d0cda203dc61479f6aee3f8bcf30db9fd8d5c71.jpg" alt="Imagem 1">
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="mySlides fade">
+    <img src="https://64.media.tumblr.com/3361c06f08849e7ddb1add17010433b3/beb08a544058188a-b0/s2048x3072/a6b508b239ea09de84fd851cc8233ee0293d62da.jpg" alt="Imagem 2">
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="https://64.media.tumblr.com/8e341a7f8875f1e822830e7d2ff280cb/beb08a544058188a-9a/s2048x3072/ffd82e9d45636b35d5cc601b2582df941b371383.jpg" alt="Imagem 3">
+  </div>
+    <!-- Slide 4 -->
+  <div class="mySlides fade">
+    <img src=" https://64.media.tumblr.com/24c1e3d7dc4a8f3ce5b1836b02e39393/beb08a544058188a-bf/s2048x3072/857a44bc8c694e7e58c3cbb365ae028f2888171d.jpg" alt="Imagem 4">
+  </div>
+    <!-- Slide 5 -->
+  <div class="mySlides fade">
+    <img src=" https://64.media.tumblr.com/d1805a535e7d2ad053809ba70f642ab6/beb08a544058188a-54/s2048x3072/6e729df2eac3e07770af64b91533cad69a7d4198.jpg" alt="Imagem 5">
+  </div>
+  <!-- Slide 6 -->
+  <div class="mySlides fade">
+    <img src=" https://64.media.tumblr.com/9814cc91ed41dc4d3a90483069c426fa/beb08a544058188a-6a/s2048x3072/bd3989d99b9cfff0b56df1c0adb113faad077233.jpg" alt="Imagem 6">
+  </div>
+    <!-- Slide 7 -->
+  <div class="mySlides fade">
+    <img src=" https://64.media.tumblr.com/a7e00c9dcfead27fde344c9096aad405/beb08a544058188a-ce/s2048x3072/18f880036b99d29b8ec134e4a86a5793d3df9661.jpg" alt="Imagem 7">
+  </div>
+  
+  <!-- Botão de navegação (seta para a esquerda) -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+  <!-- Botão de navegação (seta para a direita) -->
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
