@@ -1,0 +1,25 @@
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Função para avançar ou retroceder os slides
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Função para mostrar o slide atual
+function showSlides(n) {
+  let slides = document.getElementsByClassName("mySlides");
+
+  // Se o índice for maior que o número de slides, reinicia para o primeiro
+  if (n > slides.length) { slideIndex = 1; }
+  // Se o índice for menor que 1, vai para o último slide
+  if (n < 1) { slideIndex = slides.length; }
+
+  // Esconde todas as imagens
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Exibe o slide atual
+  slides[slideIndex - 1].style.display = "block";
+}
